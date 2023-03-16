@@ -39,8 +39,11 @@ def print_indexes_and_entries(indexes: Iterable, entries: Iterable) -> None:
     :param entries: A list or tuple
     :return: None
     """
+    #for item in zip(indexes, entries):
+        #print(f'Index: {str(item[0]):10} Entry: {item[1]}')
+
     for i, e in zip(indexes, entries) :
-        print(f"Index: {i:10} Entry: {e}")
+        print(f"Index: {str(i):10} Entry: {e}")
 
 
 
